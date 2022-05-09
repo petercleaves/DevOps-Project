@@ -1,5 +1,6 @@
 # Open Source CI/CD Pipeline
-
+Example deployed docker container:
+http://3.144.4.72:8080/webapp/
 ```
 Current setup, running on AWS:
 
@@ -14,4 +15,6 @@ GitHub code changes automatically triggers
 
 ### Up Next:
 - Kubernetes
+
+
 
