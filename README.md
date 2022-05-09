@@ -1,8 +1,8 @@
 # Open Source CI/CD Pipeline
-Deployed docker container:
-http://3.144.4.72:8080/webapp/
-Docker Hub:
-https://hub.docker.com/repository/docker/kangpc/simple-devops-image
+Deployed docker container:<br>
+http://3.144.4.72:8080/webapp/<br>
+Docker Hub:<br>
+https://hub.docker.com/repository/docker/kangpc/simple-devops-image<br>
 ```
 Current setup, running on AWS:
 
