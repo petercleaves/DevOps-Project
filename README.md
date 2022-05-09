@@ -1,15 +1,17 @@
-# Simple DevOps Project
+# Open Source CI/CD Pipeline
 
-[![Image](https://github.com/yankils/Simple-DevOps-Project/blob/master/Devops_course.PNG "DevOps Project - CI/CD with Jenkins Ansible Docker Kubernetes ")](https://www.udemy.com/course/valaxy-devops/?referralCode=8147A5CF4C8C7D9E253F)
+```
+Current setup, running on AWS:
 
-This Repository is a collection of Implementation documents. 
+GitHub code changes automatically triggers 
+ Jenkins builds artifact (Maven) 
+   copies .war to Ansible/Docker server 
+   Ansible-Playbook1 creates Docker image of tomcat and copies .war to /webapps > uploads it to DockerHub 
+   Ansible-Playbook2 removes any running containers from the targets, pulls docker image from PB1, and runs the new containers
 
-### Purpose:
-By following this repository you can able to setup a DevOps CI/CD Pipeline using
-- git
-- Jenkins
-- Maven
-- Ansible
-- Docker &
+```
+
+
+### Up Next:
 - Kubernetes
 
